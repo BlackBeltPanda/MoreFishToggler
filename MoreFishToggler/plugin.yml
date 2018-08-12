@@ -1,0 +1,19 @@
+main: org.pandacraft.MoreFishToggler.MoreFishToggler
+name: MoreFishToggler
+version: 1.0
+description: Allow players to toggle using MoreFish
+author: BlackBeltPanda
+website: www.pandacraft.org
+depend: [MoreFish]
+api-version: 1.12
+commands:
+  mftoggle:
+    description: Toggle using MoreFish
+    aliases: [togglemf, morefishtoggle, togglemorefish]
+    permission: morefishtoggler.toggle
+    permission-message: You do not have permission to toggle MoreFish
+    usage: "Usage: /<command>"
+permissions:
+  morefishtoggler.toggle:
+    description: Allows using MoreFish toggle command
+    default: true
