@@ -3,6 +3,7 @@ Allows individual players to toggle using MoreFish
 
 Requirements:
 [MoreFish](https://www.spigotmc.org/resources/morefish-improved-fishing-and-fishing-competition.22926/)
+
 Java 8
 
 Commands:
